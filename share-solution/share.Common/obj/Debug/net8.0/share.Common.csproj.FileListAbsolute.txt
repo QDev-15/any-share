@@ -1,0 +1,12 @@
+D:\Data\Projects\AnyShare\any-share\share-solution\share.Common\bin\Debug\net8.0\share.Common.deps.json
+D:\Data\Projects\AnyShare\any-share\share-solution\share.Common\bin\Debug\net8.0\share.Common.dll
+D:\Data\Projects\AnyShare\any-share\share-solution\share.Common\bin\Debug\net8.0\share.Common.pdb
+D:\Data\Projects\AnyShare\any-share\share-solution\share.Common\obj\Debug\net8.0\share.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\Projects\AnyShare\any-share\share-solution\share.Common\obj\Debug\net8.0\share.Common.AssemblyInfoInputs.cache
+D:\Data\Projects\AnyShare\any-share\share-solution\share.Common\obj\Debug\net8.0\share.Common.AssemblyInfo.cs
+D:\Data\Projects\AnyShare\any-share\share-solution\share.Common\obj\Debug\net8.0\share.Common.csproj.CoreCompileInputs.cache
+D:\Data\Projects\AnyShare\any-share\share-solution\share.Common\obj\Debug\net8.0\share.Common.sourcelink.json
+D:\Data\Projects\AnyShare\any-share\share-solution\share.Common\obj\Debug\net8.0\share.Common.dll
+D:\Data\Projects\AnyShare\any-share\share-solution\share.Common\obj\Debug\net8.0\refint\share.Common.dll
+D:\Data\Projects\AnyShare\any-share\share-solution\share.Common\obj\Debug\net8.0\share.Common.pdb
+D:\Data\Projects\AnyShare\any-share\share-solution\share.Common\obj\Debug\net8.0\ref\share.Common.dll

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "MZ1Z2hYTfZdbHH4SLQ6L/s3jwYtP3ID6U4Zz36Zmc6o=",
+  "Source": "share.WebApi",
+  "BasePath": "_content/share.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

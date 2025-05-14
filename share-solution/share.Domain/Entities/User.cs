@@ -18,5 +18,6 @@ namespace share.Domain.Entities
         public string PasswordHash { get; set; }
         public string? Token { get; set; }
         public ICollection<Role> Roles { get; set; } = new List<Role>();
+        public ICollection<Comment> Comments { get; set; } = new List<Comment>();
     }
 }
