@@ -19,6 +19,9 @@ namespace share.Infrastructure.Configurations
             builder.Property(c => c.Alias).IsRequired().IsUnicode().HasMaxLength(500);
             builder.Property(c => c.IsActive).IsRequired(true).HasDefaultValue(false);
             builder.Property(c => c.IsDeleted).IsRequired(true).HasDefaultValue(false);
+            builder.HasIndex(c => c.Name).HasDatabaseName("IX_Categories_Name");
+            builder.HasIndex(c => c.Alias).HasDatabaseName("IX_Categories_Alias");
+            builder.HasIndex(c => c.IsActive).HasDatabaseName("IX_Categories_IsActive");
             builder.HasMany(c => c.Articles)
                 .WithOne(a => a.Category)
                 .HasForeignKey(a => a.CategoryId)

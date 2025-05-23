@@ -22,6 +22,9 @@ namespace share.Infrastructure.Configurations
             builder.Property(a => a.CreatedAt).IsRequired();
             builder.Property(a => a.UpdatedAt).IsRequired(false);
             builder.Property(a => a.IsActive).IsRequired(true).HasDefaultValue(false);
+            builder.HasIndex(a => a.IsActive).HasDatabaseName("IX_Article_IsActive");
+            builder.HasIndex(a => a.CreatedAt).HasDatabaseName("IX_Article_CreatedAt");
+            builder.HasIndex(a => a.Title).HasDatabaseName("IX_Article_Title");
             builder.HasOne(x => x.Category)
                 .WithMany(x => x.Articles)
                 .HasForeignKey(x => x.CategoryId)

@@ -22,6 +22,9 @@ namespace share.Infrastructure.Configurations
             builder.Property(a => a.IsActive).IsRequired(true).HasDefaultValue(false);
             builder.Property(a => a.CreatedAt).IsRequired();
             builder.Property(a => a.UpdatedAt).IsRequired();
+            builder.HasIndex(a => a.IsActive).HasDatabaseName("IX_Advertisements_IsActive");
+            builder.HasIndex(a => a.Position).HasDatabaseName("IX_Advertisements_Position");
+            builder.HasIndex(a => a.CreatedAt).HasDatabaseName("IX_Advertisements_CreatedAt");
         }
     }
 }
