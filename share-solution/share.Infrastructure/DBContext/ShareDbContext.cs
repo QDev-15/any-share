@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using share.Domain.Entities;
 using share.Infrastructure.Configurations;
+using share.Infrastructure.SeeData;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -56,6 +57,10 @@ namespace share.Infrastructure.DBContext
             modelBuilder.ApplyConfiguration(new TagConfiguration());
             modelBuilder.ApplyConfiguration(new UserConfiguration());
             modelBuilder.ApplyConfiguration(new VisitStatisticConfiguration());
+
+
+            // seeData Configuration
+            SeeDataConfiguration.SeeData(modelBuilder);
         }
     }
 }
