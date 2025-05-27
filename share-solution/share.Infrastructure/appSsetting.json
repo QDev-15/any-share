@@ -1,5 +1,0 @@
-{
-  "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Database=MyDb;Trusted_Connection=True;TrustServerCertificate=True"
-  }
-}
