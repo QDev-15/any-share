@@ -29,8 +29,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Authentication\" />
     <Folder Include="Email\" />
+    <Folder Include="Repositories\" />
     <Folder Include="Shared\" />
   </ItemGroup>
 

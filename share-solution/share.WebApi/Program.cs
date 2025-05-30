@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using share.Application.Interfaces;
+using share.Infrastructure;
 using share.Infrastructure.EFCore.DBContext;
 using share.Infrastructure.Logging;
 
@@ -13,6 +14,7 @@ builder.Services.AddShareDbContext(builder.Configuration);
 builder.Services.AddScoped<ILogQueue, LogQueue>();
 builder.Services.AddHostedService<LogBackgroundService>();
 
+builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
