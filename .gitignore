@@ -1,12 +1,22 @@
-﻿							################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-# Optimized for .NET + Angular development
-################################################################################
-
-# === VS-specific folders ===
+﻿# === VS-specific folders ===
 .vs/
-share.Application/[Oo]bj/
-/share-solution/share.Application/obj/Debug/net8.0/share.Application.AssemblyInfo.cs
-/share-solution/share.Application/obj/Debug/net8.0/share.Application.AssemblyInfoInputs.cache
-/share-solution/share.Application/obj/Debug/net8.0/share.Application.assets.cache
-/share-solution/share.Application/obj/Debug/net8.0/share.Application.GeneratedMSBuildEditorConfig.editorconfig
+
+# === Build output ===
+**/bin/
+**/obj/
+
+# === Logs and temp files ===
+**/logs/
+**/log/
+*.log
+*.tmp
+
+# === User-specific and cache files ===
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.AssemblyInfo.cs
+*.AssemblyInfoInputs.cache
+*.assets.cache
+*.GeneratedMSBuildEditorConfig.editorconfig
