@@ -76,5 +76,10 @@ namespace share.Infrastructure.Authentication
 
             return principal;
         }
+
+        public ClaimsPrincipal? ValidateToken(string token)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

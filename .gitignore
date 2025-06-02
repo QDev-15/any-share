@@ -2,8 +2,8 @@
 .vs/
 
 # === Build output ===
-**/bin/
-**/obj/
+**/[Bb]in/
+**/[Oo]bj/
 
 # === Logs and temp files ===
 **/logs/
