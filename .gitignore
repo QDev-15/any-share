@@ -1,14 +1,12 @@
-﻿################################################################################
+﻿							################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+# Optimized for .NET + Angular development
 ################################################################################
 
-/share-solution/.vs/share-solution/FileContentIndex
-/share-solution/.vs/share-solution/v17
-/share-solution/.vs/share-solution/DesignTimeBuild
-/share-solution/.vs/ProjectEvaluation
-/share-solution/.vs/share-solution/CopilotIndices/17.13.430.18484/CodeChunks.db
-/share-solution/.vs/share-solution/CopilotIndices/17.13.430.18484/CodeChunks.db-shm
-/share-solution/.vs/share-solution/CopilotIndices/17.13.430.18484/CodeChunks.db-wal
-/share-solution/.vs/share-solution/CopilotIndices/17.13.430.18484/SemanticSymbols.db
-/share-solution/.vs/share-solution/CopilotIndices/17.13.430.18484/SemanticSymbols.db-shm
-/share-solution/.vs/share-solution/CopilotIndices/17.13.430.18484/SemanticSymbols.db-wal
+# === VS-specific folders ===
+.vs/
+share.Application/[Oo]bj/
+/share-solution/share.Application/obj/Debug/net8.0/share.Application.AssemblyInfo.cs
+/share-solution/share.Application/obj/Debug/net8.0/share.Application.AssemblyInfoInputs.cache
+/share-solution/share.Application/obj/Debug/net8.0/share.Application.assets.cache
+/share-solution/share.Application/obj/Debug/net8.0/share.Application.GeneratedMSBuildEditorConfig.editorconfig
