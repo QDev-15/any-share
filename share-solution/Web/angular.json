@@ -77,6 +77,10 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "port": 5100,
+            "open": true
+          },
           "configurations": {
             "production": {
               "buildTarget": "share-web:build:production"
